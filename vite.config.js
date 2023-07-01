@@ -17,4 +17,12 @@ export default defineConfig({
             },
         }),
     ],
+    server: {
+        host,
+        hmr: { host },
+        https: {
+            key: fs.readFileSync(`/path/to/${host}.key`),
+            cert: fs.readFileSync(`/path/to/${host}.crt`),
+        },
+    },
 });
