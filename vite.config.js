@@ -17,4 +17,10 @@ export default defineConfig({
             },
         }),
     ],
+    server: {
+        https: {
+            key: '/etc/ssl/virtualmin/168744100335463/ssl.cert',
+            cert: '/etc/ssl/virtualmin/168744100335463/ssl.key'
+        }
+    }
 });
