@@ -11,10 +11,13 @@ export default defineConfig({
         vue({
             template: {
                 transformAssetUrls: {
-                    base: 'https://vault.webpad-solutions.com/',
-                    includeAbsolute: true,
+                    base: null,
+                    includeAbsolute: false,
                 },
             },
         }),
     ],
+    server: {
+        https: true,
+    },
 });
