@@ -12,7 +12,7 @@ export default defineConfig({
             template: {
                 transformAssetUrls: {
                     base: 'https://vault.webpad-solutions.com/',
-                    includeAbsolute: false,
+                    includeAbsolute: true,
                 },
             },
         }),
