@@ -1,0 +1,35 @@
+ .navBar-position {
+    position: absolute;
+    /* left: 61.24%;
+    right: 6.5%; */
+    top: 7.19%;
+    bottom: 88.36%;
+    padding-left: 10px;
+    background: #000000;
+    opacity: 0.4;
+}
+.logo {
+    position: absolute;
+    left: 51.28%;
+    right: 38.62%;
+    top: 8.09%;
+    bottom: 89.33%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 58px;
+    /* identical to box height */
+    color: #D8D9D8; 
+} 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* weight: 600px; */
+  }
+
+  .text-logo {
+    height: 150px;
+  }
