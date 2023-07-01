@@ -1,8 +1,10 @@
 <script setup>
 import ApplicationLogo from "@/Components/ApplicationLogo.vue";
 import { Head, Link } from "@inertiajs/vue3";
-
-// import Vue from 'vue';
+import "/resources/js/Assets/forms.css"
+import styles from '../Components/'
+// am mutat css -ul in folderul assets din js
+import "@/Assets/forms.css"
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap";
 import "bootstrap/dist/js/bootstrap.min.js";
