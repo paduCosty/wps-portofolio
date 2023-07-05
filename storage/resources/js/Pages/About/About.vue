@@ -1,7 +1,7 @@
 <script setup>
+import Layout from '@/Layouts/Layout.vue';
 import { Head } from '@inertiajs/vue3';
-import Layout from "@/Layouts/Layout.vue";
-import GuestLayout from "@/Layouts/GuestLayout.vue";
+import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
 
 defineProps({
     mustVerifyEmail: {
@@ -14,13 +14,11 @@ defineProps({
 </script>
 
 <template>
-    <Head title="Home" />
+    <Head title="About" />
 
     <Layout>
-        <!-- <template #header>
+        <template #header>
             <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">Profile</h2>
         </template>
-        <h1>In curand</h1> -->
-
     </Layout>
 </template>

@@ -14,13 +14,13 @@ defineProps({
 </script>
 
 <template>
-    <Head title="Home" />
+    <Head title="Portfolio" />
 
     <Layout>
-        <!-- <template #header>
-            <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">Profile</h2>
+        <template #header>
+            <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">Portfolio</h2>
         </template>
-        <h1>In curand</h1> -->
+        <h1></h1>
 
     </Layout>
 </template>
