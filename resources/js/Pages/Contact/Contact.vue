@@ -1,7 +1,9 @@
 <script setup>
 
 </script>
-
 <template>
-home
+
+contact
+
+
 </template>

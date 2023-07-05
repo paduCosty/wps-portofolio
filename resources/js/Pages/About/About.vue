@@ -3,5 +3,5 @@
 </script>
 
 <template>
-home
+about
 </template>
