@@ -1,8 +1,6 @@
 <script setup>
 import ApplicationLogo from "@/Components/ApplicationLogo.vue";
 import { Head, Link } from "@inertiajs/vue3";
-import "/resources/js/Assets/forms.css"
-import styles from '../Components/'
 // am mutat css -ul in folderul assets din js
 import "@/Assets/forms.css"
 import "bootstrap/dist/css/bootstrap.css";
@@ -12,9 +10,9 @@ import "bootstrap/dist/js/bootstrap.min.js";
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light items-center">
+    <nav class="all-navbar ">
         <Link>
-            <div class="w-20 h-20 logo">
+            <div class="logo">
                 <ApplicationLogo />
                 <!-- <text id="WebPad-Solution" class="logo" width="190" height="44"  transform="translate(0 52)" fill="#d8d9d8" font-size="24" font-family="SegoeUI, Segoe UI" opacity="0.9">WebPad-Solution</text> -->
             </div>
@@ -22,25 +20,18 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
         <div class="container">
             <Link>
-                <text id="WebPad-Solution" class="text-logo"
-                    >WebPad-Solution</text
-                >
+                <text id="WebPad-Solution" class="text-logo">WebPad-Solution</text>
             </Link>
 
             <div class="navBar-position">
+
                 <Link :href="route('home')" class="font-semibold"> Home </Link>
 
-                <Link :href="route('about')" class="font-semibold">
-                    About
-                </Link>
+                <Link :href="route('about')" class="font-semibold">About</Link>
 
-                <Link :href="route('portfolio')" class="font-semibold">
-                    Portfolio
-                </Link>
+                <Link :href="route('portfolio')" class="font-semibold">Portfolio</Link>
 
-                <Link :href="route('contact')" class="font-semibold">
-                    Contact
-                </Link>
+                <Link :href="route('contact')" class="font-semibold">Contact </Link>
             </div>
         </div>
     </nav>
