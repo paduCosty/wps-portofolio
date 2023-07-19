@@ -9,8 +9,9 @@
     <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet">
     @vite(['resources/js/app.js'])
 </head>
+
 <body>
-<div id="app"></div>
+    <div id="app"></div>
 </body>
 
 </html>
