@@ -3,9 +3,6 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 // Import components
 import Layout from "./Layouts/Layout.vue";
-import ProductList from './Components/ProductList.vue';
-import ProductForm from './Components/ProductForm.vue';
-import Product from './Components/Product.vue';
 import Home from "./Pages/Home/Home.vue";
 import Portfolio from "./Pages/Portfolio/Portfolio.vue";
 import Contact from "./Pages/Contact/Contact.vue";
