@@ -6,8 +6,14 @@
                     <application-logo class="application-logo"></application-logo>
                 </router-link>
             </div>
+
             <div class="menu-container d-flex justify-content-center">
+                
                 <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+
+                    <li>
+                        <router-link to="/home" class="nav-link me-5"></router-link>
+                    </li>
                     <li>
                         <router-link to="/home" class="nav-link me-5">
                             Home

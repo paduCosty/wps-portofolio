@@ -45,7 +45,7 @@
         </svg>
     </div>
 
-    <div style="padding-left: 910px; margin-top: -189px">
+    <div style="padding-left: 73.5%; margin-top: -13%">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="284"
@@ -65,7 +65,7 @@
         </svg>
     </div>
 
-    <div style="padding-left: 930px; margin-top: -250px">
+    <div style="padding-left: 75%; margin-top: -18%">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="6"
@@ -85,7 +85,7 @@
         </svg>
     </div>
 
-    <div style="padding-left: 960px; margin-top: -170px">
+    <div style="padding-left: 76.5%; margin-top: -12.5%">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="364"
