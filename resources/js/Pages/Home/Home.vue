@@ -1,123 +1,73 @@
 <template>
-    <div style="padding-left: 39px; margin-top: 69px">
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="380"
-            height="84"
-            viewBox="0 0 792 134"
-        >
-            <text
-                id="Web_Pad_Solution"
-                data-name="Web Pad Solution"
-                transform="translate(0 109)"
-                fill="#fff"
-                font-size="101"
-                font-family="SegoeUI, Segoe UI"
-                opacity="0.7"
+    <div style="position: relative; width: 100%; height: 240px; overflow: hidden;">
+    <div style="position: absolute; left: 73.5%; top: 0;">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="284"
+                height="260"
+                viewBox="0 0 354 240"
             >
-                <tspan x="0" y="0">Web Pad Solution</tspan>
-            </text>
-        </svg>
-    </div>
+                <g
+                    id="Rectangle_174"
+                    data-name="Rectangle 174"
+                    stroke="#707070"
+                    stroke-width="1"
+                    opacity="0.15"
+                >
+                    <rect width="354" height="260" stroke="none" />
+                    <rect
+                        x="0.5"
+                        y="0.5"
+                        width="353"
+                        height="337"
+                        fill="none"
+                    />
+                </g>
+            </svg>
+        </div>
 
-    <div style="padding-left: 53px">
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="611"
-            height="98"
-            viewBox="0 0 611 98"
-        >
-            <text
-                id="Provides_web_application_development_and_software_creation...."
-                data-name="Provides web application 
-                development and software creation...."
-                transform="translate(0 40)"
-                fill="#c9c9c9"
-                font-size="20"
-                font-family="SegoeUI, Segoe UI"
-                opacity="0.75"
+        <div style="position: absolute; left: 75%; top: 10%;">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="6"
+                height="212"
+                viewBox="0 0 10 282"
             >
-                <tspan x="0" y="0">Provides web application</tspan>
-                <tspan x="0" y="30">
-                    development and software creation....
-                </tspan>
-            </text>
-        </svg>
-    </div>
+                <path
+                    id="Path_178"
+                    data-name="Path 178"
+                    d="M4,0,1.2,295.895,0,422"
+                    transform="translate(3.5 0.033)"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="7"
+                    opacity="0.5"
+                />
+            </svg>
+        </div>
 
-    <div style="padding-left: 73.5%; margin-top: -13%">
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="284"
-            height="240"
-            viewBox="0 0 354 240"
-        >
-            <g
-                id="Rectangle_174"
-                data-name="Rectangle 174"
-                stroke="#707070"
-                stroke-width="1"
-                opacity="0.15"
-            >
-                <rect width="354" height="240" stroke="none" />
-                <rect x="0.5" y="0.5" width="353" height="337" fill="none" />
-            </g>
-        </svg>
-    </div>
-
-    <div style="padding-left: 75%; margin-top: -18%">
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="6"
-            height="212"
-            viewBox="0 0 10 202"
-        >
-            <path
-                id="Path_178"
-                data-name="Path 178"
-                d="M4,0,1.2,295.895,0,422"
-                transform="translate(3.5 0.033)"
-                fill="none"
-                stroke="#fff"
-                stroke-width="7"
-                opacity="0.5"
-            />
-        </svg>
-    </div>
-
-    <div style="padding-left: 76.5%; margin-top: -12.5%">
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="364"
-            height="290"
-            viewBox="0 0 364 290"
-        >
+        <div style="position: absolute; left: 76.5%; top: 18.5%;">
             <text
                 id="Web_software_development_to_customize_orders._Web_hosting_services._Maintenance_and_security._Custom_design."
-                data-name="Web software development to customize orders.
- 
-Web hosting services. 
-
-Maintenance and security.
- 
-Custom design."
+                data-name="Web software development to customize orders.Web hosting services. Maintenance and security.Custom design."
                 fill="#fff"
                 font-size="16"
                 font-family="SegoeUI, Segoe UI"
                 opacity="0.9"
             >
-                <tspan x="0" y="19">Web software development to</tspan>
-                <tspan x="0" y="38">customize orders.</tspan>
-                <!-- <tspan x="0" y="49"></tspan> -->
-                <tspan x="0" y="78">Web hosting services.</tspan>
-                <!-- <tspan x="0" y="85"></tspan> -->
-                <tspan x="0" y="118">Maintenance and security.</tspan>
-                <!-- <tspan x="0" y="361"></tspan> -->
-                <tspan x="0" y="158">Custom design.</tspan>
+            
+                <p x="0" y="19">Web software development to</p>
+                
+                <p x="0" y="34">customize orders.</p>
+                
+                <p x="0" y="78">Web hosting services.</p>
+                
+                <p x="0" y="118">Maintenance and security.</p>
+                
+                <p x="0" y="158">Custom design.</p>
             </text>
-        </svg>
+        </div>
     </div>
-
     <!-- <div style="padding-left: 680px; margin-top: -169px">
         <svg
             xmlns="http://www.w3.org/2000/svg"
